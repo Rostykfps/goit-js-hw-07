@@ -20,7 +20,7 @@ function createGalleryListMarkUp(array) {
 
 // Ініціалізація бібліотеки після створення і додання елементів галереї у ul.gallery
 
-const lightbox = new SimpleLightbox('.gallery a', {
+const lightboxSettings = new SimpleLightbox('.gallery a', {
   // Додаванная відображення підписів до зображень з атрибута alt.
   // Налаштування щоб підпис був знизу і з'являвся через 250 мілісекунд після відкриття зображення.
   captions: true,
